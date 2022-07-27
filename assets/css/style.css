@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+/*  #323A45, #848484  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    color: #323A45;
+}
+
+a:hover 
+{
+    opacity: 50%;
+}
+
+h1:hover{
+    opacity: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 100px 100px 0px 100px;
+}
+
+.lightText{
+    color: #848484;
+}
+
+.cardDesigner{
+    color: #848484;
+}
+
+nav{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navBar{
+    text-align: right;
+}
+
+.navBar > a{
+    padding-left: 50px;
+}
+
+.pageOne{
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.pageOne > a > img{
+    width: 100%;
+}
+
+.pageOne:hover{
+    opacity: 50%;
+}
+
+.cardTxt{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.cardPrice{
+    text-align: right;
+}
+
+.pageGallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 5vh;
+    justify-items: center;
+    column-gap: 30px;
+}
+
+.card{
+    width: auto;
+}
+
+.card:hover{
+    opacity: 50%;
+}
+
+.card > a > img{
+    width: 100%;
+}
+
+footer > div{
+    margin: 10vh 0;
+    display: grid;
+    height: 15vh;
+    grid-template-columns: 30% 20% 20% 30% ;
+    grid-template-rows: 40% 20% 20% 20%;
+}
+
+.headingFooter{
+    font-weight: 800;
+}
+
+.textFooter{
+    font-weight: 300;
+}
